@@ -1,0 +1,115 @@
+:root {
+  /* Brand colors */
+  --color-cream-50: #fdfbf8;
+  --color-cream-100: #faf7f2;
+  --color-cream-200: #f3ede5;
+
+  --color-white: #ffffff;
+
+  --color-sage-100: #eef3ea;
+  --color-sage-200: #dce4d6;
+  --color-sage-300: #c9d6c0;
+  --color-sage-500: #8f9f83;
+
+  --color-terracotta-100: #f7e9e1;
+  --color-terracotta-500: #bf6a43;
+  --color-terracotta-600: #aa5b38;
+  --color-terracotta-700: #8f492c;
+
+  --color-charcoal-500: #6d6761;
+  --color-charcoal-700: #4a4541;
+  --color-charcoal-900: #2d2a27;
+
+  --color-olive-500: #8b8458;
+  --color-olive-600: #7a7147;
+  --color-olive-700: #665f3c;
+
+  --color-border-soft: #e8e1d8;
+  --color-border-strong: #d8cec1;
+  --color-focus: #bf6a43;
+
+  --color-success: #5f7c5c;
+  --color-warning: #a97932;
+  --color-danger: #a24f43;
+
+  /* Typography */
+  --font-display:
+    'Cormorant Garamond',
+    Georgia,
+    'Times New Roman',
+    serif;
+
+  --font-body:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
+  --font-size-4xl: 2.75rem;
+  --font-size-5xl: 3.75rem;
+
+  --line-height-tight: 1.05;
+  --line-height-heading: 1.15;
+  --line-height-body: 1.65;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Border radii */
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-soft:
+    0 10px 30px rgba(72, 61, 51, 0.08);
+
+  --shadow-card:
+    0 18px 45px rgba(72, 61, 51, 0.1);
+
+  --shadow-raised:
+    0 8px 0 rgba(143, 73, 44, 0.18),
+    0 14px 30px rgba(72, 61, 51, 0.12);
+
+  --shadow-inset:
+    inset 0 1px 3px rgba(72, 61, 51, 0.08);
+
+  /* Borders */
+  --border-soft: 1px solid var(--color-border-soft);
+  --border-strong: 1px solid var(--color-border-strong);
+
+  /* Layout */
+  --content-narrow: 42rem;
+  --content-standard: 72rem;
+  --content-wide: 90rem;
+
+  --header-height: 4.5rem;
+  --sidebar-width: 17rem;
+
+  /* Motion */
+  --transition-fast: 140ms ease;
+  --transition-standard: 220ms ease;
+  --transition-slow: 360ms ease;
+}

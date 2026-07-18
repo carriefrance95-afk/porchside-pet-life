@@ -1,9 +1,19 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import ArrivalLayout from './ArrivalLayout';
 
-export default function AuthLayout() {
+const AuthLayout = () => {
   return (
-    <main className="min-h-screen bg-[#FAF7F2]">
+    <ArrivalLayout
+      eyebrow="Porchside Pet Life"
+      footer={
+        <p className="text-center text-sm text-[var(--color-charcoal-500)]">
+          A warm, welcoming home for every part of life with your dogs.
+        </p>
+      }
+    >
       <Outlet />
-    </main>
-  )
-}
+    </ArrivalLayout>
+  );
+};
+
+export default AuthLayout;
